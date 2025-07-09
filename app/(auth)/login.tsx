@@ -49,7 +49,7 @@ export default function Login() {
 
       <TouchableOpacity
         className="bg-[#F97316] py-3.5 rounded-lg items-center mt-2.5"
-        onPress={() => {router.replace('/home/pages/homePage');}}
+        onPress={() => {router.replace('/pages/homepage/(tabs)/overview');}}
       >
         <Text className="text-black text-base font-semibold">
           Continue
